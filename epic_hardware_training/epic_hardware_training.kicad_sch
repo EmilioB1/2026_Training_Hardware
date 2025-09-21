@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "30ac4f03-b625-4332-b9e2-69de598ec1a0")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 55.88 80.01)
+		(size 60.96 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ff024d1-978c-48f0-8ac6-753b22a31855")
+		(property "Sheetname" "MCU"
+			(at 55.88 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 55.88 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "epic_hardware_training"
+				(path "/30ac4f03-b625-4332-b9e2-69de598ec1a0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 78.74)
+		(size 60.96 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9cb0fdbb-06ad-4e83-b3e7-8f8526bf43bd")
+		(property "Sheetname" "Power"
+			(at 171.45 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 171.45 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "epic_hardware_training"
+				(path "/30ac4f03-b625-4332-b9e2-69de598ec1a0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
