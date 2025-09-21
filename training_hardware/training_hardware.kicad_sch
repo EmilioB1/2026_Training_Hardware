@@ -81,6 +81,16 @@
 				(justify left top)
 			)
 		)
+		(pin "Vout" input
+			(at 148.59 90.17 0)
+			(uuid "ae1b6893-3640-4535-a6e2-4825f1c5471d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "training_hardware"
 				(path "/19aa0e78-5ab4-46df-84c9-9ca161187559"
