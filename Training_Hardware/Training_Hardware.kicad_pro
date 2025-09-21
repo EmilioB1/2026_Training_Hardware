@@ -456,6 +456,10 @@
     [
       "4e418afb-b30e-4314-af6c-a7c671982343",
       "MCU"
+    ],
+    [
+      "359cc343-6f6b-4b5e-afed-643d17ddcab5",
+      "CAN"
     ]
   ],
   "text_variables": {}

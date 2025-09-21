@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 99.06 83.82)
+		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "359cc343-6f6b-4b5e-afed-643d17ddcab5")
+		(property "Sheetname" "CAN"
+			(at 99.06 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 99.06 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Training_Hardware"
+				(path "/b0d5b3f6-1860-46b8-b850-3c3e521e5123"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 135.89 99.06)
 		(size 22.86 10.16)
 		(exclude_from_sim no)
