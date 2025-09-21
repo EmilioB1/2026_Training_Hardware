@@ -247,7 +247,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "2026_Training_Hardware"
+    ]
   },
   "meta": {
     "filename": "epic_hardware_training.kicad_pro",
@@ -420,6 +422,10 @@
     [
       "5ff024d1-978c-48f0-8ac6-753b22a31855",
       "MCU"
+    ],
+    [
+      "b12cd40f-08e9-4c14-9e0c-4ad84735f924",
+      "CAN"
     ]
   ],
   "text_variables": {}
