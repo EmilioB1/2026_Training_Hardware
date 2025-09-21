@@ -5,6 +5,36 @@
 	(uuid "b34dceb0-d8ef-45e4-8aee-3b8caa07fef4")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 76.2 96.52) (xy 95.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5594ea2f-a535-4a5d-9cb3-809075ca7aed")
+	)
+	(wire
+		(pts
+			(xy 76.2 99.06) (xy 95.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7a8f50-c0ab-45ae-9839-94579a4ab0e1")
+	)
+	(wire
+		(pts
+			(xy 76.2 93.98) (xy 95.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe302ba4-5fef-4bd0-99c9-b596e45ebf3c")
+	)
 	(sheet
 		(at 158.75 87.63)
 		(size 38.1 22.86)
@@ -81,6 +111,36 @@
 				(justify left top)
 			)
 		)
+		(pin "RXD" output
+			(at 76.2 93.98 0)
+			(uuid "c7e0be85-f1ac-4cca-94d4-3f703479e277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STBY" input
+			(at 76.2 96.52 0)
+			(uuid "9c7f1240-e94a-4bb4-873d-051469160257")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 76.2 99.06 0)
+			(uuid "e3125e13-a1c6-4436-95a0-afaeb1a8579b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "training_hardware"
 				(path "/b34dceb0-d8ef-45e4-8aee-3b8caa07fef4"
@@ -121,6 +181,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CRX1" input
+			(at 95.25 93.98 180)
+			(uuid "e6511140-fe36-4c35-ba4c-fb5c823e64ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTX1" output
+			(at 95.25 99.06 180)
+			(uuid "72ee299a-2ea3-4021-920c-3e4fd86ad564")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tx+" passive
+			(at 130.81 87.63 90)
+			(uuid "2f1422e7-f7a9-4ae9-bb51-9f36462a8a25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STBY" output
+			(at 95.25 96.52 180)
+			(uuid "5ea2c548-b961-4188-8e7e-5d8edfec6da8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
