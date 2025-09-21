@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "05dd24ed-54e2-4a3d-b9f1-a6c34511551a")
+	(uuid "f20cbca6-6a49-4f12-89e0-d995833827ed")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:8P8C_LED_Shielded"
