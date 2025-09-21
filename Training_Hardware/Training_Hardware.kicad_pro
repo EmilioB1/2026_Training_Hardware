@@ -246,7 +246,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "2026TrainingHardware"
+    ]
   },
   "meta": {
     "filename": "Training_Hardware.kicad_pro",
@@ -419,6 +421,10 @@
     [
       "bab747f3-bfff-4257-8440-bff62be5f0b7",
       "MCU"
+    ],
+    [
+      "0a6d09a5-8604-4486-916d-6a6dce84b6b8",
+      "CAN"
     ]
   ],
   "text_variables": {}
