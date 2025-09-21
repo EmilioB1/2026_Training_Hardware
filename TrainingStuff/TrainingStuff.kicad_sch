@@ -5,8 +5,38 @@
 	(uuid "7bedb2c1-4b41-4164-a76e-e6479fce2d5a")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 74.93 88.9) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c9920b-aafc-429a-9de1-bf9691746495")
+	)
+	(wire
+		(pts
+			(xy 74.93 85.09) (xy 90.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65de48ef-7022-4596-9696-b4ce05a79c89")
+	)
+	(wire
+		(pts
+			(xy 74.93 81.28) (xy 90.17 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c02cc8-93e2-482d-82ea-09cf5d49db8f")
+	)
 	(sheet
-		(at 85.09 74.93)
+		(at 163.83 77.47)
 		(size 40.64 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +52,7 @@
 		)
 		(uuid "052013a3-99f4-4e54-9321-ac643d7ee820")
 		(property "Sheetname" "Power"
-			(at 85.09 74.2184 0)
+			(at 163.83 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +61,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 85.09 108.5346 0)
+			(at 163.83 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +78,79 @@
 		)
 	)
 	(sheet
-		(at 146.05 74.93)
+		(at 31.75 74.93)
+		(size 43.18 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b6ff4b8-317b-4388-9ff8-270296c56f6a")
+		(property "Sheetname" "CAN"
+			(at 31.75 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 31.75 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RXD" output
+			(at 74.93 81.28 0)
+			(uuid "9bb36a0c-acaa-48a7-9cf9-81ac7209e514")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STBY" input
+			(at 74.93 85.09 0)
+			(uuid "ce8e6e01-0ede-4391-ac5a-4d85278f4209")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 74.93 88.9 0)
+			(uuid "51278552-bdb1-42d0-8f9a-169772d16383")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TrainingStuff"
+				(path "/7bedb2c1-4b41-4164-a76e-e6479fce2d5a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 74.93)
 		(size 43.18 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +166,7 @@
 		)
 		(uuid "4414a215-c08b-405b-96fa-ed5b77b45b9e")
 		(property "Sheetname" "MCU"
-			(at 146.05 74.2184 0)
+			(at 90.17 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,12 +175,72 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 146.05 109.8046 0)
+			(at 90.17 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CRX1" input
+			(at 90.17 81.28 180)
+			(uuid "52d22262-557b-400e-8f35-1d372a7729c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTX1" output
+			(at 90.17 88.9 180)
+			(uuid "57f72008-9382-4e4b-8825-ed523297939c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED" input
+			(at 90.17 93.98 180)
+			(uuid "14211b16-0752-432d-9df2-ace1be625379")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rx+" input
+			(at 90.17 96.52 180)
+			(uuid "9ea37898-3e9a-492e-8212-a44a7ccf9d16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rx-" input
+			(at 90.17 100.33 180)
+			(uuid "23bea430-04b0-477e-90a7-8cc816f4c28d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STBY" output
+			(at 90.17 85.09 180)
+			(uuid "b6bed104-a04e-4cf6-9c58-9aa7a71ddecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
