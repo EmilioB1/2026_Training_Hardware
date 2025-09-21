@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 34.29 96.52)
+		(size 55.88 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41b64c2a-50c7-424b-9114-216e51c3aa5d")
+		(property "Sheetname" "CAN"
+			(at 34.29 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 34.29 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "training_hardware"
+				(path "/ce6aff0a-6a24-4161-b195-5f43ae1bbb8d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 180.34 91.44)
 		(size 55.88 48.26)
 		(exclude_from_sim no)
