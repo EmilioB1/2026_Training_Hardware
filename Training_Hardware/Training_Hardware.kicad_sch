@@ -5,8 +5,38 @@
 	(uuid "b0d5b3f6-1860-46b8-b850-3c3e521e5123")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 127 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce3d035-9939-48cd-8384-86f652c425e4")
+	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 135.89 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c99e670-d1ff-4e19-bf32-705d38d713e8")
+	)
+	(wire
+		(pts
+			(xy 127 90.17) (xy 135.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e30bb5-508a-48c6-bc8d-ae7e36c089df")
+	)
 	(sheet
-		(at 135.89 67.31)
+		(at 120.65 63.5)
 		(size 22.86 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +52,7 @@
 		)
 		(uuid "2b153c5e-aa11-4574-817d-5cc7cc5c241d")
 		(property "Sheetname" "Power"
-			(at 135.89 66.5984 0)
+			(at 120.65 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +61,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 135.89 79.3246 0)
+			(at 120.65 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,6 +111,36 @@
 				(justify left top)
 			)
 		)
+		(pin "RXD" output
+			(at 127 87.63 0)
+			(uuid "0c524ce8-94f2-4ad4-9e27-d813ee498262")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STBY" input
+			(at 127 90.17 0)
+			(uuid "7f74e93a-b946-4b56-9ceb-5d640fb8f1d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 127 92.71 0)
+			(uuid "1a0532bd-931e-4762-8376-eabfb5c8e8c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Training_Hardware"
 				(path "/b0d5b3f6-1860-46b8-b850-3c3e521e5123"
@@ -90,8 +150,8 @@
 		)
 	)
 	(sheet
-		(at 135.89 99.06)
-		(size 22.86 10.16)
+		(at 135.89 83.82)
+		(size 31.75 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -105,7 +165,7 @@
 		)
 		(uuid "4e418afb-b30e-4314-af6c-a7c671982343")
 		(property "Sheetname" "MCU"
-			(at 136.144 98.806 0)
+			(at 136.144 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,12 +174,42 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 135.89 109.8046 0)
+			(at 135.89 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CRX 1" input
+			(at 135.89 87.63 180)
+			(uuid "7f598f3a-3c20-47d4-a1d4-64111e44d93a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTX 1" output
+			(at 135.89 92.71 180)
+			(uuid "669ccaa4-a1a7-4408-acb0-b66cda39fd5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STBY" output
+			(at 135.89 90.17 180)
+			(uuid "57e116c5-018f-4b0d-bc67-a1efd40af053")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
