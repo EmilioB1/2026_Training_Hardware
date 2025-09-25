@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 45.72 72.39)
-		(size 66.04 41.91)
+		(at 121.92 82.55)
+		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "054b5761-e6bf-4667-8fab-116ffb3b3fc9")
 		(property "Sheetname" "MCU"
-			(at 45.72 71.6784 0)
+			(at 121.92 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 45.72 114.8846 0)
+			(at 121.92 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +48,8 @@
 		)
 	)
 	(sheet
-		(at 167.64 72.39)
-		(size 68.58 41.91)
+		(at 162.56 82.55)
+		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "644f4b94-972a-42ba-9c90-b3d5394ebc1e")
 		(property "Sheetname" "Power"
-			(at 167.64 71.6784 0)
+			(at 162.56 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 167.64 114.8846 0)
+			(at 162.56 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,6 +85,48 @@
 			(project "training_hardware"
 				(path "/4cf2d799-67ae-4e4e-ac38-46710a69e750"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 82.55)
+		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a7ac8f6e-976c-4368-8536-fbcda175524c")
+		(property "Sheetname" "CAN"
+			(at 81.28 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 81.28 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "training_hardware"
+				(path "/4cf2d799-67ae-4e4e-ac38-46710a69e750"
+					(page "4")
 				)
 			)
 		)

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "8ceba740-69c3-404f-9fd9-45d1983071cf")
+	(uuid "d1f0c4af-5de2-43cf-a4ef-742c6391ac89")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:RJ45_LED_Shielded"
